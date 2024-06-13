@@ -9,6 +9,8 @@ const PokemonCard = ({ pokemon }) => {
     );
 };
 
+
+
 PokemonCard.propTypes = {
     pokemon: PropTypes.shape({
         name: PropTypes.string.isRequired,
